@@ -15,7 +15,7 @@ def get_model(train_data=None, n_epochs=10):
   
   return model
   
-def test_model2(model, test_data):
+def test_model2(model1, test_data):
 
   # write your code here as per instructions
   # ... your code ...
