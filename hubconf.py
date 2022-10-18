@@ -1,0 +1,2 @@
+def kali():
+  print ('kali')
