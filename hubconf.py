@@ -16,7 +16,7 @@ def get_model(train_data=None, n_epochs=10):
   return model
   
 # sample invocation torch.hub.load(myrepo,'test_model',model=model1,test_data=test_data,force_reload=True)
-def test_model(model=model, test_data=test_data):
+def test_model(model=None, test_data=None):
 
   accuracy_val, precision_val, recall_val, f1score_val = 0, 0, 0, 0
   # write your code here as per instructions
