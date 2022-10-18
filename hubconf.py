@@ -15,6 +15,18 @@ def get_model(train_data=None, n_epochs=10):
   
   return model
   
+def test_model2(model=None, test_data=None):
+
+  # write your code here as per instructions
+  # ... your code ...
+  # ... your code ...
+  # ... and so on ...
+  # set model variable to proper object, make use of train_data
+  
+  print ('Returning model... (rollnumber: xx)')
+  
+  return 1
+
 # sample invocation torch.hub.load(myrepo,'test_model',model=model1,test_data=test_data,force_reload=True)
 def test_model1(model=None, test_data=None):
 
