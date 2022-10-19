@@ -42,6 +42,9 @@ def get_model_advanced(train_data=None, n_epochs=10,lr=1e-4,config=None):
   # Example, config = [(1,10,(3,3),1,'same'), (10,3,(5,5),1,'same'), (3,1,(7,7),1,'same')], it can have any number of elements
   # You need to create 2d convoution layers as per specification above in each element
   # You need to add a proper fully connected layer as the last layer
+  
+  # HINT: You can print sizes of tensors to get an idea of the size of the fc layer required
+  # HINT: Flatten function can also be used if required
   return model
   
   
