@@ -10,8 +10,8 @@ class YourRollNumberNN(nn.Module):
   # ... your code ...
   # ... write init and forward functions appropriately ...
     
-# sample invocation torch.hub.load(myrepo,'get_model',train_data=train_data,n_epochs=5, force_reload=True)
-def get_model(train_data=None, n_epochs=10):
+# sample invocation torch.hub.load(myrepo,'get_model',train_data_loader=train_data_loader,n_epochs=5, force_reload=True)
+def get_model(train_data_loader=None, n_epochs=10):
   model = None
 
   # write your code here as per instructions
@@ -25,8 +25,8 @@ def get_model(train_data=None, n_epochs=10):
   
   return model
 
-# sample invocation torch.hub.load(myrepo,'get_model_advanced',train_data=train_data,n_epochs=5, force_reload=True)
-def get_model_advanced(train_data=None, n_epochs=10,lr=1e-4,config=None):
+# sample invocation torch.hub.load(myrepo,'get_model_advanced',train_data_loader=train_data_loader,n_epochs=5, force_reload=True)
+def get_model_advanced(train_data_loader=None, n_epochs=10,lr=1e-4,config=None):
   model = None
 
   # write your code here as per instructions
@@ -52,8 +52,8 @@ def get_model_advanced(train_data=None, n_epochs=10,lr=1e-4,config=None):
   
   return model
 
-# sample invocation torch.hub.load(myrepo,'test_model',model1=model,test_data=test_data,force_reload=True)
-def test_model(model1=None, test_data=None):
+# sample invocation torch.hub.load(myrepo,'test_model',model1=model,test_data_loader=test_data_loader,force_reload=True)
+def test_model(model1=None, test_data_loader=None):
 
   accuracy_val, precision_val, recall_val, f1score_val = 0, 0, 0, 0
   # write your code here as per instructions
