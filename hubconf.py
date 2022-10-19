@@ -1,6 +1,10 @@
 def kali():
   print ('kali')
   
+# Define a neural network YOUR ROLL NUMBER should prefix the classname
+class YourRollNumberNN(nn.Module):
+  # ... your code ...
+  
 # sample invocation torch.hub.load(myrepo,'get_model',train_data=train_data,n_epochs=5, force_reload=True)
 def get_model(train_data=None, n_epochs=10):
   model = None
