@@ -192,7 +192,7 @@ import torch.optim as optim
 #     optimzer.step()
     
 #   return mynn
-def testHubCOnfig:
+def testHubCOnfig():
   return "It works"
 
 
